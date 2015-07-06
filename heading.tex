@@ -313,7 +313,7 @@ in Table \ref{t:hyperbase}.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=3.34in]{images/closedCapsule.png}
+\includegraphics[width=3.34in]{images/closedCapsule2.png}
 \caption{Longitudinal view of a passenger pod with no inlet and no compression system.}
 \label{f:ClosedPod}
 \end{figure}
@@ -362,9 +362,9 @@ must become relative to the tube area, leaving less area for the pod. For $M_{po
 equal 1 as well, forcing $A_{pod}$ to be 0. Note that the values from Table \ref{t:hyperbase} translate to area ratios around 0.6, 
 which yields a much lower maximum pod speed of about Mach 0.3-0.4 for a pod without an inlet and compression system. 
 
-\begin{figure}[hbtp]
+\begin{figure}[hbt]
 \centering
-\includegraphics[width=3.34in]{images/hollowCapsule.png}
+\includegraphics[width=3.34in]{images/hollowCapsule2.png}
 \caption{Longitudinal view of a hollow passenger pod that lets mass flow pass through it.}
 \label{f:hollowPod}
 \end{figure}
@@ -383,7 +383,7 @@ $\frac{A_{bypass}}{A_{tube}}$ and ${M_{pod}}$.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=3.34in]{images/openCapsule.png}
+\includegraphics[width=3.34in]{images/openCapsule2.png}
 \caption{Longitudinal view of a hollow passenger pod with a necessary diffuser to restrict the Mach number of the flow into the compressor.}
 \label{f:OpenPod}
 \end{figure}
@@ -412,7 +412,7 @@ however, static pressure affects the compressor flow and power requirements disc
 
 %%\nomenclature{c1MN}{Mach number at the front face of the first compressor}
 %%\nomenclature{BF}{Blockage Factor, diffused area over pod area}
-\begin{figure}[H]
+\begin{figure}[hbt]
 \centering
 \includegraphics[width=3.34in]{images/mach_vs_rad6.png}
 \caption[Tube and Pod Radius vs Mach]{Exponential relationship between pod speed and required tube diameter, for three blockage factors $\frac{A_{diffused}}{A_{pod}}$.}
@@ -748,17 +748,17 @@ around the model's nominal values as listed in Table \ref{tab:montecarlo}.
     \centering
     \caption{Uncertainty variables used in the Monte Carlo experiment.}
     \label{tab:montecarlo}
-    \begin{tabulary}{1.0\textwidth}{l  c  c  c c c} 
+    \begin{tabulary}{0.8\textwidth}{l  c  c  c c c} 
         \hline
-        Variable & Mode & Model & Min & Max & Std. Dev\\ \hline \hline
-        $T_{amb}$ & 305 K & Normal & - & - & 4.5 K \\ 
-        $G$ & $1000\frac{W}{m^{2}}$ & Triangular & $200\frac{W}{m^{2}}$ & $1000\frac{W}{m^{2}}$ & - \\
-        $\rho$ & 0.5 & Triangular & 0.4 & 0.9 & - \\
-        $\epsilon$ & 0.5 & Triangular & 0.4 & 0.9 & - \\
-        $\eta_{c}$ & 0.69 & Triangular & 0.6 & 0.8 & - \\
-        $n$ & 34 & Triangular & - & - & 2 \\
-        $c_{solar}$ & 0.7 & Triangular & 0.5 & 1.0 & - \\
-        $c_{conv}$ & 1.0 & Triangular & 0.9 & 3.0 & - \\
+         & Spread & Min & Mode & Max & Std. Dev\\ \hline \hline
+        $T_{amb}$ &  Normal & - & 305 K & - & 4.5 K \\ 
+        $G$ & Triangle & $200\frac{W}{m^{2}}$ &  $1000\frac{W}{m^{2}}$ & $1000\frac{W}{m^{2}}$ & - \\
+        $\rho$ & Triangle & 0.4 & 0.5 &  0.9 & - \\
+        $\epsilon$ & Triangle & 0.4 & 0.5 & 0.9 & - \\
+        $\eta_{c}$ & Triangle & 0.6 & 0.69 & 0.8 & - \\
+        $n$ & Triangle & - & 34 & - & 2 \\
+        $c_{solar}$ & Triangle & 0.5 & 0.7 & 1.0 & - \\
+        $c_{conv}$ & Triangle & 0.9 & 1.0 & 3.0 & - \\
         \hline
     \end{tabulary}
     
@@ -851,8 +851,7 @@ ASME bibliography stype file \verb+asmems4.bst+.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \appendix       %%% starting appendix
-\section*{Appendix A: Sample Source Code} \label{app:Github}
-\subsection*{Github}
+\section*{Appendix A: Source Code} \label{app:Github}
 
 The presented models were built exclusively using freely-available, open-source tools.
 The code requires OpenMDAO, a framework serving as the backbone for subsystem integration,
