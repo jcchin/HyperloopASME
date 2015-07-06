@@ -1,0 +1,29 @@
+\nomenclatureentry{a\gamma@[{\gamma}]\begingroup Heat Capacity Ratio\nomeqref {0}|nompageref}{6}
+\nomenclatureentry{aMN@[{MN}]\begingroup Mach Number\nomeqref {0}|nompageref}{6}
+\nomenclatureentry{ac1MN@[{c1MN}]\begingroup Mach number at the front face of the first compressor\nomeqref {1}|nompageref}{8}
+\nomenclatureentry{aBF@[{BF}]\begingroup Blockage Factor, diffused area over pod area\nomeqref {1}|nompageref}{8}
+\nomenclatureentry{aQ@[{Q}]\begingroup Heat flow rate (W)\nomeqref {1}|nompageref}{10}
+\nomenclatureentry{a\dot{m}@[{\dot{m}}]\begingroup Mass flow rate\nomeqref {2}|nompageref}{11}
+\nomenclatureentry{aT@[{T}]\begingroup Temperature (K)\nomeqref {2}|nompageref}{11}
+\nomenclatureentry{aC_{p}@[{C_{p}}]\begingroup Heat capacity at constant pressure ($\frac{J}{kg-K}$) \nomeqref {2}|nompageref}{11}
+\nomenclatureentry{aNTU@[{NTU}]\begingroup Number of Transfer Units\nomeqref {3}|nompageref}{11}
+\nomenclatureentry{aP@[{P}]\begingroup Pressure ($\frac{N}{m^{2}}$)\nomeqref {3}|nompageref}{11}
+\nomenclatureentry{aPR@[{PR}]\begingroup Pressure Ratio\nomeqref {3}|nompageref}{11}
+\nomenclatureentry{aPR@[{PR}]\begingroup Pressure Ratio\nomeqref {3}|nompageref}{11}
+\nomenclatureentry{a{\eta}_{ad}@[{{\eta}_{ad}}]\begingroup Adiabatic Efficiency\nomeqref {3}|nompageref}{11}
+\nomenclatureentry{a\rho@[{\rho}]\begingroup Total, Hemispherical Reflectivity\nomeqref {7}|nompageref}{12}
+\nomenclatureentry{aG@[{G}]\begingroup Solar Irradiance\nomeqref {7}|nompageref}{12}
+\nomenclatureentry{ac_{solar}@[{c_{solar}}]\begingroup Gross Irradiance Adjustment\nomeqref {7}|nompageref}{12}
+\nomenclatureentry{aL@[{L}]\begingroup Length (m)\nomeqref {7}|nompageref}{12}
+\nomenclatureentry{a\epsilon@[{\epsilon}]\begingroup Emissivity Factor\nomeqref {7}|nompageref}{12}
+\nomenclatureentry{a\sigma@[{\sigma}]\begingroup Stefan-Boltzmann constant ($\frac{W}{m-K}$)\nomeqref {7}|nompageref}{12}
+\nomenclatureentry{aP_{rad}@[{P_{rad}}]\begingroup Radiated Power (W)\nomeqref {7}|nompageref}{12}
+\nomenclatureentry{ag@[{g}]\begingroup Acceleration of gravity, 9.81 ($\frac{m}{s^{2}}$)\nomeqref {8}|nompageref}{12}
+\nomenclatureentry{a\beta@[{\beta}]\begingroup Volume coefficient of expansion (K)\nomeqref {8}|nompageref}{12}
+\nomenclatureentry{a\upsilon@[{\upsilon}]\begingroup Kinematic Viscosity ($\frac{m^{2}}{s}$)\nomeqref {8}|nompageref}{12}
+\nomenclatureentry{aPr@[{Pr}]\begingroup Prandtl Number, $\frac{\upsilon}{\alpha}$\nomeqref {8}|nompageref}{12}
+\nomenclatureentry{aGr@[{Gr}]\begingroup Grashof Number, $\frac{ g \beta \delta TL^{3}}{v^{2}}$\nomeqref {8}|nompageref}{12}
+\nomenclatureentry{aRa@[{Ra}]\begingroup Rayleigh Number, $\frac{\rho U_{\infty} L}{\mu}$\nomeqref {8}|nompageref}{12}
+\nomenclatureentry{aNu@[{Nu}]\begingroup Nusselt Number, $\frac{hL}{k}$\nomeqref {8}|nompageref}{12}
+\nomenclatureentry{ah@[{h}]\begingroup Heat transfer coefficient ($\frac{W}{m^{2}-K}$)\nomeqref {8}|nompageref}{12}
+\nomenclatureentry{ak@[{k}]\begingroup Thermal Conductivity ($\frac{W}{m-K}$) \nomeqref {8}|nompageref}{12}
