@@ -140,13 +140,6 @@ tube under a partial vacuum, and suspending the pod on air bearings. Propulsion 
 electromagnetic accelerators mounted to the tube with the entire system held above ground on concrete 
 columns maintaining a relatively straight trajectory.
 
-\begin{figure}[hbtp]
-\centering
-\includegraphics[width=.75\textwidth]{images/hyperloopAlphaSketch.png}
- \caption[Hyperloop Concept Sketch]{Hyperloop-alpha concept sketch of the passenger pod. \cite{Musk}}
-\label{f:hyperloopSketch}
-\end{figure}
-
 Although Hyperloop is similar to other vacuum tube train (VacTrain) concepts \cite{ET3},
 the soft vacuum represents a distinct difference.
 It allows the pod to run on air-bearings, thus removing the need for a magnetic levitation system used on other VacTrain designs.
@@ -249,7 +242,7 @@ This issue is discussed in much greater detail in Section~\ref{s:sizing}.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=0.65\textwidth]{images/TopAssembly.png}
+\includegraphics[width=3.34in]{images/TopAssembly.png}
 \caption{Workflow and dependencies between the top-level Hyperloop assemblies.}
 \label{f:hyperloopXDSM}
 \end{figure}
@@ -262,7 +255,7 @@ This subdivision enhances modularity so that future work can replace these simpl
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=0.65\textwidth]{images/podAssembly.png}
+\includegraphics[width=3.34in]{images/podAssembly.png}
 \caption{Expanded pod geometry assembly}
 \label{f:podXDSM}
 \end{figure}
@@ -286,7 +279,7 @@ connection between the overall performance and second compressor subsystems.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{images/compAssembly.png}
+\includegraphics[width=3.34in]{images/compAssembly.png}
 \caption{Expanded compressor cycle assembly}
 \label{f:compressorXDSM}
 \end{figure}
@@ -320,7 +313,7 @@ in Table \ref{t:hyperbase}.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=.85\textwidth]{images/closedCapsule.png}
+\includegraphics[width=3.34in]{images/closedCapsule.png}
 \caption{Longitudinal view of a passenger pod with no inlet and no compression system.}
 \label{f:ClosedPod}
 \end{figure}
@@ -349,7 +342,7 @@ $M_{pod}$ and $M_{bypass}$ that defines an area ratio, $\frac{A_{bypass}}{A_{tub
 
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=.9\textwidth]{images/areaPlot.pdf}
+  \includegraphics[width=3.34in]{images/areaPlot.pdf}
   \caption{The required area ratio reaches a minimum value at $M_{bypass}=1$ for all values of $M_{pod}$, given the closed pod configuration illustrated in Figure 5.}
   \label{f:choked-flow}
 \end{figure}
@@ -371,7 +364,7 @@ which yields a much lower maximum pod speed of about Mach 0.3-0.4 for a pod with
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=.85\textwidth]{images/hollowCapsule.png}
+\includegraphics[width=3.34in]{images/hollowCapsule.png}
 \caption{Longitudinal view of a hollow passenger pod that lets mass flow pass through it.}
 \label{f:hollowPod}
 \end{figure}
@@ -390,7 +383,7 @@ $\frac{A_{bypass}}{A_{tube}}$ and ${M_{pod}}$.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=0.85\textwidth]{images/openCapsule.png}
+\includegraphics[width=3.34in]{images/openCapsule.png}
 \caption{Longitudinal view of a hollow passenger pod with a necessary diffuser to restrict the Mach number of the flow into the compressor.}
 \label{f:OpenPod}
 \end{figure}
@@ -421,7 +414,7 @@ however, static pressure affects the compressor flow and power requirements disc
 %%\nomenclature{BF}{Blockage Factor, diffused area over pod area}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{images/mach_vs_rad6.png}
+\includegraphics[width=3.34in]{images/mach_vs_rad6.png}
 \caption[Tube and Pod Radius vs Mach]{Exponential relationship between pod speed and required tube diameter, for three blockage factors $\frac{A_{diffused}}{A_{pod}}$.}
 \label{f:machRAD}
 \end{figure}
@@ -458,7 +451,7 @@ Combined with the mission profile described below, these requirements impact bat
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=0.7\textwidth]{images/velocity_profile3.png}
+\includegraphics[width=3.34in]{images/velocity_profile3.png}
 \caption{Velocity profile described in the original proposal, with the programmatically modified section highlighted in red.}
 \label{f:velocity}
 \end{figure}
@@ -478,7 +471,7 @@ results in an overall battery storage requirement.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=0.9\textwidth]{images/battery_plot.pdf}
+\includegraphics[width=3.34in]{images/battery_plot.pdf}
 \caption[Battery/Compressor/Mission requirements as a function of pod speed]
 {Battery requirements, compressor power, and mission time as a function of pod speed.}
 \label{f:battery}
@@ -544,7 +537,7 @@ In order to satisfy the energy balance $Q_{released}=Q_{absorbed}$ the following
 %%\nomenclature{T}{Temperature (K)}
 %%\nomenclature{C_{p}}{Heat capacity at constant pressure ($\frac{J}{kg-K}$) }
 \begin{equation}
-\underbrace{\dot{m}_{air} C_{p, air} (T_{out, air} - T_{in, air})}_{{Q}_{released}}  = \underbrace{\dot{m}_{water} C_{p,water} (T_{out, water} - T_{in, water})}_{{Q}_{absorbed}}
+\underbrace{\dot{m}_{air} C_{p, air} (T_{out, air} - T_{in, air})}_{{Q}_{released}}  = \underbrace{\dot{m}_{H_{2}O} C_{p,H_{2}O} (T_{out, H_{2}O} - T_{in, H_{2}O})}_{{Q}_{absorbed}}
 \end{equation}
 
 where the $T_{out}$  of each fluid is unknown. With assumed mass-flow rates and initial temperatures, a valid combination of $T_{out}$'s of
@@ -556,15 +549,31 @@ and the proposed requirement to fully cool the air back down to inlet temperatur
 
 %%\nomenclature{NTU}{Number of Transfer Units}
 
+% \begin{table}
+%     \centering
+%     \caption{Heat Exchanger Fluid Properties}
+%     \label{tab:HeatEx}
+%     \begin{tabular}{l c c c c c c} 
+%         \hline
+%         Fluid & $C_{p}$ ($\frac{kJ}{kg-K}$)& $T_{in}$ (K) & $T_{out}$ (K) & $\dot{m}$ ($\frac{kg}{s}$) & Q ($\frac{kJ}{s}$) & $Q_{max}$\\ \hline 
+%         Air & 1.006 & 791 & 300 & 0.49 & -242 & 247.9\\ 
+%         Water & 4.186 & 288.15 & 416.6 &0.45 & 242 & 247.9\\ \hline
+%     \end{tabular}
+% \end{table}
+
 \begin{table}
     \centering
     \caption{Heat Exchanger Fluid Properties}
     \label{tab:HeatEx}
-    \begin{tabular}{l  c  c  c  c  c  c} 
+    \begin{tabular}{l c c} 
         \hline
-        Fluid & $C_{p}$ ($\frac{kJ}{kg-K}$)& $T_{in}$ (K) & $T_{out}$ (K) & $\dot{m}$ ($\frac{kg}{s}$) & Q ($\frac{kJ}{s}$) & $Q_{max}$\\ \hline 
-        Air & 1.006 & 791 & 300 & 0.49 & -242 & 247.9\\ 
-        Water & 4.186 & 288.15 & 416.6 &0.45 & 242 & 247.9\\ \hline
+        Property & Air & Water \\ \hline
+        $C_{p}$ ($\frac{kJ}{kg-K}$)&  1.006 & 4.186 \\
+        $T_{in}$ (K) & 791 & 288.15 \\
+        $T_{out}$ (K) & 300 & 416.6 \\
+        $\dot{m}$ ($\frac{kg}{s}$) & 0.49 &  0.45 \\
+        Q ($\frac{kJ}{s}$) & -242 & 242 \\
+        $Q_{max}$ & 247.9 & 247.9\\ \hline 
     \end{tabular}
 \end{table}
 
@@ -768,7 +777,7 @@ of 9.7 \degree F.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=.9\textwidth]{images/histo.pdf}
+\includegraphics[width=3.34in]{images/histo.pdf}
  \caption[MonteCarlo]{Monte Carlo uncertainty analysis of the equilibrium tube temperature.
  Histograms and normal distribution generated from 15,000 samples
  using a bin span of 1\degree F.}
@@ -846,8 +855,10 @@ ASME bibliography stype file \verb+asmems4.bst+.
 \subsection*{Github}
 
 The presented models were built exclusively using freely-available, open-source tools.
-The code requires OpenMDAO, a framework serving as the backbone for subsystem integration, optimization and workflow management.
-As the Hyperloop design evolves, an ever increasing number of design variables will need to be managed and optimized.
+The code requires OpenMDAO, a framework serving as the backbone for subsystem integration,
+optimization and workflow management.
+As the Hyperloop design evolves,
+an ever increasing number of design variables will need to be managed and optimized.
 OpenMDAO can provide the means to manage this rapidly growing complexity in an efficient and flexible manner
 that will allow the model to grow as the necessary refinements are made.
 External contribution is greatly encouraged to expand, refine or replace models with higher fidelity analyses.
@@ -857,48 +868,18 @@ The entire source code for both the analysis and the generated figures can be fo
 
 Online documentation can be found at:
 \url{<http://openmdao-plugins.github.io/Hyperloop>}
-This plugin is designed to be a jumping off point for community contributions to help crowd source the development of the Hyperloop
-concept. The readme on the github repository walks through basic installation steps, further support can be found through the main
-OpenMDAO docs. The basic structure of an assembly is explained in the usage section of these docs.
+This plugin is designed to be a jumping off point for community contributions
+to help crowd source the development of the Hyperloop
+concept. The readme on the github repository walks through basic installation steps,
+further support can be found through the main OpenMDAO docs.
 
-\subsection*{Usage Example}
-
-To use the Hyperloop model, run the file $src\backslash hyperloop\backslash hyperloop\_ sim.py$
-in the Hyperloop repository. 
-Each assembly is structured similarly and the following walk-through shows the basic layout for setting up a model.
-
-The file starts out with some library imports and the Input/Output variable definition of the HyperloopPod assembly.
-
-\inputminted[fontsize=\tiny]{python}{code/example1.py}
-
-Next is the configure method, which is used to wire up the assembly components like the diagrams shown in the model layout section.
-
-First add an instance of each component class, then connect variables to and from each component.
-
-\inputminted[fontsize=\tiny]{python}{code/example2.py}
- 
- Since assemblies often require iteration and convergence, a solver is then added. Each added parameter gives the solver variables to vary, until all declared constraints are satisfied.
-%\begin{adjustwidth}{-2cm}{-2cm}
-\inputminted[fontsize=\tiny]{python}{code/example3.py}
- %\end{adjustwidth} 
-The final ‘’‘if \_\_name\_\_==”\_\_main\_\_”:’‘’ section works the same as any other python script. This trick allows the user to set up conditional inputs and parameters for the file to run by itself, rather than in conjunction with the rest of the optimization. Running stand-alone is much more convenient when initially building a component and debugging. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Subsystem Modeling Theory and Potential Future Road Map} \label{app:future}
-\subsection*{Subsection head in appendix}
-The equation counter is not reset in an appendix and the numbers will
-follow one continual sequence from the beginning of the article to the very end as shown in the following example.
-The current model of the Hyperloop focuses on some of the primary sub-systems that operate within the pod. However, there is much more
-analysis that needs to be done to build a complete Hyperloop model.
-For the sake of conciseness, each section serves as a general summary. The reader is recommended to refer to the actual source code and
-included documentation for full implementation details. The current model omits economic, structural, safety, and infrastructure
-considerations; these areas become more prominent once the core engineering concept is deemed sufficiently feasible. These aspects are
-equally important to the overall design and they represent the next required step in producing a viable Hyperloop design concept.
-Below, is a brief summary in which various disciplines are suggested as logical next steps for the engineering aspects of the analysis.
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[width=\textwidth]{images/hyperloop_cad.png}
+\includegraphics[width=3.34in]{images/hyperloop_cad.png}
  \caption[Hyperloop geometry assembled in OpenCSM]{Hyperloop conceptual rendering. Calculated dimensions for an inlet (left), nozzle (right), and full assembly (bottom) for a pod speed of Mach 0.8. Geometry rendered in OpenCSM, a parametric solid modeling tool.}
 \label{f:hyperloopCAD}
 \end{figure}

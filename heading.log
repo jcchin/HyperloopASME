@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 JUL 2015 14:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 JUL 2015 15:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -554,20 +554,8 @@ Underfull \hbox (badness 10000) detected at line 75
 
 
 ]
-<images/hyperloopAlphaSketch.png, id=50, 1157.32375pt x 803.0pt>
-File: images/hyperloopAlphaSketch.png Graphic file (type png)
-
-<use images/hyperloopAlphaSketch.png>
-Package pdftex.def Info: images/hyperloopAlphaSketch.png used on input line 145
-.
-(pdftex.def)             Requested size: 371.28745pt x 257.61464pt.
-
-Overfull \hbox (129.90536pt too wide) in paragraph at lines 145--146
- [][] 
- []
-
 ! Undefined control sequence.
-l.185 ... to the source code can be found in \cref
+l.178 ... to the source code can be found in \cref
                                                   {app:Github}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -575,65 +563,43 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2 <./images/hyperloopAlphaSketch.png>]
-<images/TopAssembly.png, id=71, 633.567pt x 429.2838pt>
+<images/TopAssembly.png, id=60, 633.567pt x 429.2838pt>
 File: images/TopAssembly.png Graphic file (type png)
 
 <use images/TopAssembly.png>
-Package pdftex.def Info: images/TopAssembly.png used on input line 252.
-(pdftex.def)             Requested size: 321.77942pt x 218.0279pt.
-
-Overfull \hbox (80.39734pt too wide) in paragraph at lines 252--253
- [][] 
- []
-
-<images/podAssembly.png, id=74, 760.2804pt x 498.1812pt>
+Package pdftex.def Info: images/TopAssembly.png used on input line 245.
+(pdftex.def)             Requested size: 241.38153pt x 163.54875pt.
+ [2]
+<images/podAssembly.png, id=77, 760.2804pt x 498.1812pt>
 File: images/podAssembly.png Graphic file (type png)
 
 <use images/podAssembly.png>
-Package pdftex.def Info: images/podAssembly.png used on input line 265.
-(pdftex.def)             Requested size: 321.77942pt x 210.85382pt.
+Package pdftex.def Info: images/podAssembly.png used on input line 258.
+(pdftex.def)             Requested size: 241.38153pt x 158.16696pt.
 
-Overfull \hbox (80.39734pt too wide) in paragraph at lines 265--266
- [][] 
- []
-
-<images/compAssembly.png, id=77, 1123.0758pt x 815.2056pt>
+<images/compAssembly.png, id=80, 1123.0758pt x 815.2056pt>
 File: images/compAssembly.png Graphic file (type png)
 
 <use images/compAssembly.png>
-Package pdftex.def Info: images/compAssembly.png used on input line 289.
-(pdftex.def)             Requested size: 346.53343pt x 251.5294pt.
+Package pdftex.def Info: images/compAssembly.png used on input line 282.
+(pdftex.def)             Requested size: 241.38153pt x 175.20358pt.
 
-Overfull \hbox (105.15135pt too wide) in paragraph at lines 289--290
- [][] 
- []
-
-[3 <./images/TopAssembly.png> <./images/podAssembly.png>]
-<images/closedCapsule.png, id=93, 571.8966pt x 220.6644pt>
+<images/closedCapsule.png, id=82, 571.8966pt x 220.6644pt>
 File: images/closedCapsule.png Graphic file (type png)
 
 <use images/closedCapsule.png>
-Package pdftex.def Info: images/closedCapsule.png used on input line 323.
-(pdftex.def)             Requested size: 420.79546pt x 162.36652pt.
-
-Overfull \hbox (179.41338pt too wide) in paragraph at lines 323--324
- [][] 
- []
-
+Package pdftex.def Info: images/closedCapsule.png used on input line 316.
+(pdftex.def)             Requested size: 241.38153pt x 93.13632pt.
+ [3 <./images/TopAssembly.png> <./images/podAssembly.png> <./images/compAssembl
+y.png>]
 <images/areaPlot.pdf, id=95, 794.97pt x 578.16pt>
 File: images/areaPlot.pdf Graphic file (type pdf)
  <use images/areaPlot.pdf>
-Package pdftex.def Info: images/areaPlot.pdf used on input line 352.
-(pdftex.def)             Requested size: 445.5419pt x 324.04086pt.
+Package pdftex.def Info: images/areaPlot.pdf used on input line 345.
+(pdftex.def)             Requested size: 241.38153pt x 175.54897pt.
 
-Overfull \hbox (204.15982pt too wide) in paragraph at lines 352--353
- [][] 
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 353--353
-[]\OT1/phv/m/n/8 Fig. 6. []The re-quired area ra-tio reaches a min-i-mum value 
+Underfull \hbox (badness 1270) in paragraph at lines 346--346
+[]\OT1/phv/m/n/8 Fig. 5. []The re-quired area ra-tio reaches a min-i-mum value 
 at
  []
 
@@ -641,84 +607,50 @@ at
 File: images/hollowCapsule.png Graphic file (type png)
 
 <use images/hollowCapsule.png>
-Package pdftex.def Info: images/hollowCapsule.png used on input line 374.
-(pdftex.def)             Requested size: 420.79546pt x 162.36652pt.
+Package pdftex.def Info: images/hollowCapsule.png used on input line 367.
+(pdftex.def)             Requested size: 241.38153pt x 93.13632pt.
 
-Overfull \hbox (179.41338pt too wide) in paragraph at lines 374--375
- [][] 
- []
-
-[4 <./images/compAssembly.png> <./images/closedCapsule.png>]
-<images/openCapsule.png, id=117, 571.8966pt x 220.6644pt>
+<images/openCapsule.png, id=103, 571.8966pt x 220.6644pt>
 File: images/openCapsule.png Graphic file (type png)
 
 <use images/openCapsule.png>
-Package pdftex.def Info: images/openCapsule.png used on input line 393.
-(pdftex.def)             Requested size: 420.79546pt x 162.36652pt.
-
-Overfull \hbox (179.41338pt too wide) in paragraph at lines 393--394
- [][] 
- []
-
-<images/mach_vs_rad6.png, id=121, 578.16pt x 433.62pt>
+Package pdftex.def Info: images/openCapsule.png used on input line 386.
+(pdftex.def)             Requested size: 241.38153pt x 93.13632pt.
+ [4 <./images/closedCapsule.png> <./images/areaPlot.pdf> <./images/hollowCapsul
+e.png>]
+<images/mach_vs_rad6.png, id=185, 578.16pt x 433.62pt>
 File: images/mach_vs_rad6.png Graphic file (type png)
 
 <use images/mach_vs_rad6.png>
-Package pdftex.def Info: images/mach_vs_rad6.png used on input line 424.
-(pdftex.def)             Requested size: 396.04144pt x 297.02791pt.
+Package pdftex.def Info: images/mach_vs_rad6.png used on input line 417.
+(pdftex.def)             Requested size: 241.38153pt x 181.03404pt.
 
-Overfull \hbox (154.65936pt too wide) in paragraph at lines 424--425
- [][] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 7869) has occurred while \output is active []
-
- [5 <./images/areaPlot.pdf> <./images/hollowCapsule.png> <./images/openCapsule.
-png>]
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
 
-<images/velocity_profile3.png, id=202, 796.4154pt x 519.3804pt>
+<images/velocity_profile3.png, id=190, 796.4154pt x 519.3804pt>
 File: images/velocity_profile3.png Graphic file (type png)
 
 <use images/velocity_profile3.png>
-Package pdftex.def Info: images/velocity_profile3.png used on input line 461.
-(pdftex.def)             Requested size: 346.53343pt x 225.99203pt.
-
-Overfull \hbox (105.15135pt too wide) in paragraph at lines 461--462
- [][] 
- []
-
-<images/battery_plot.pdf, id=204, 585.81187pt x 433.62pt>
+Package pdftex.def Info: images/velocity_profile3.png used on input line 454.
+(pdftex.def)             Requested size: 241.38153pt x 157.41618pt.
+ [5 <./images/openCapsule.png> <./images/mach_vs_rad6.png>] <images/battery_plo
+t.pdf, id=203, 585.81187pt x 433.62pt>
 File: images/battery_plot.pdf Graphic file (type pdf)
 
 <use images/battery_plot.pdf>
-Package pdftex.def Info: images/battery_plot.pdf used on input line 481.
-(pdftex.def)             Requested size: 445.5419pt x 329.80605pt.
+Package pdftex.def Info: images/battery_plot.pdf used on input line 474.
+(pdftex.def)             Requested size: 241.38153pt x 178.67195pt.
 
-Overfull \hbox (204.15982pt too wide) in paragraph at lines 481--483
- [][] 
- []
-
-[6 <./images/mach_vs_rad6.png> <./images/velocity_profile3.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 529.
+(hyperref)                than one, level fixed on input line 522.
 
-
-Overfull \hbox (13.4436pt too wide) detected at line 548
-[] [] \OT1/ptmcm/m/n/10 = []
- []
-
-
-Overfull \hbox (39.86685pt too wide) in paragraph at lines 563--569
- [][] 
- []
-
-[7 <./images/battery_plot.pdf>]
+[6 <./images/velocity_profile3.png> <./images/battery_plot.pdf>]
 ! Undefined control sequence.
-l.581 ...nd in the heat exchanger section of \cref
+l.590 ...nd in the heat exchanger section of \cref
                                                   {app:heatX}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -726,162 +658,101 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 705--714
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 714--723
 []\OT1/ptm/m/n/10 where $\OML/ptmcm/m/it/10 Ra$ \OT1/ptm/m/n/10 is the Rayleigh
  num-ber ($[]\OT1/ptmcm/m/n/10 [\OML/ptmcm/m/it/10 T[] \OMS/pzccm/m/n/10 ^^@
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 705--714
+Underfull \hbox (badness 1454) in paragraph at lines 714--723
 \OML/ptmcm/m/it/10 T[]\OT1/ptmcm/m/n/10 ]\OML/ptmcm/m/it/10 D[]$\OT1/ptm/m/n/10
  ) and Pr is the Prandtl num-ber ($[]$). The
  []
 
 
-Package tabulary Warning: No suitable columns! on input line 754.
+Package tabulary Warning: No suitable columns! on input line 763.
 
 
-Overfull \hbox (29.87505pt too wide) in paragraph at lines 754--755
+Overfull \hbox (29.87505pt too wide) in paragraph at lines 763--764
  [][] 
  []
 
-<images/histo.pdf, id=257, 578.16pt x 433.62pt>
+<images/histo.pdf, id=247, 578.16pt x 433.62pt>
 File: images/histo.pdf Graphic file (type pdf)
  <use images/histo.pdf>
-Package pdftex.def Info: images/histo.pdf used on input line 771.
-(pdftex.def)             Requested size: 445.5419pt x 334.15309pt.
-
-Overfull \hbox (204.15982pt too wide) in paragraph at lines 771--774
- [][] 
- []
-
+Package pdftex.def Info: images/histo.pdf used on input line 780.
+(pdftex.def)             Requested size: 241.38153pt x 181.03404pt.
 Missing character: There is no “ in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
+ [8]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 822.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./images/histo.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 813.
-
- (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-(./heading.bbl)
-Underfull \hbox (badness 1325) in paragraph at lines 848--854
+) (./heading.bbl)
+Underfull \hbox (badness 1325) in paragraph at lines 857--865
 []\OT1/ptm/m/n/10 The pre-sented mod-els were built ex-clu-sively us-ing
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 858--863
+Underfull \hbox (badness 1874) in paragraph at lines 869--875
 []\OT1/ptm/m/n/10 Online doc-u-men-ta-tion can be found at: []$\OT1/pcr/m/n/10 
 <[]http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 858--863
+Underfull \hbox (badness 10000) in paragraph at lines 869--875
 \OT1/pcr/m/n/10 / / openmdao-[]plugins . github . io / Hyperloop>[]$[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 866--869
-[]\OT1/ptm/m/n/10 To use the Hy-per-loop model, run the file
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 866--869
-\OML/ptmcm/m/it/10 src\OMS/pzccm/m/n/10 n\OML/ptmcm/m/it/10 hyperloop\OMS/pzccm
-/m/n/10 n\OML/ptmcm/m/it/10 hyperloop[]sim:py$ \OT1/ptm/m/n/10 in the Hy-per-lo
-op
- []
-
-runsystem(pygmentize -l python -f latex -F tokenmerge             -P "verboptio
-ns= ,fontsize=\tiny " -o heading.out.pyg code/example1.py)...executed.
-
-(./heading.out.pyg
-LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <5> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <5> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 14.
- [10])
-runsystem(rm heading.out.pyg)...executed.
-
-runsystem(pygmentize -l python -f latex -F tokenmerge             -P "verboptio
-ns= ,fontsize=\tiny " -o heading.out.pyg code/example2.py)...executed.
-
- (./heading.out.pyg)
-runsystem(rm heading.out.pyg)...executed.
-
-runsystem(pygmentize -l python -f latex -F tokenmerge             -P "verboptio
-ns= ,fontsize=\tiny " -o heading.out.pyg code/example3.py)...executed.
-
- (./heading.out.pyg)
-runsystem(rm heading.out.pyg)...executed.
-
-Missing character: There is no ‘ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ‘ in font ptmr7t!
-Missing character: There is no ” in font ptmr7t!
-Missing character: There is no ” in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-Missing character: There is no ‘ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-
-<images/hyperloop_cad.png, id=319, 1660.2025pt x 1003.75pt>
+<images/hyperloop_cad.png, id=262, 1660.2025pt x 1003.75pt>
 File: images/hyperloop_cad.png Graphic file (type png)
 
 <use images/hyperloop_cad.png>
-Package pdftex.def Info: images/hyperloop_cad.png used on input line 901.
-(pdftex.def)             Requested size: 495.04993pt x 299.30472pt.
-
-Overfull \hbox (253.66785pt too wide) in paragraph at lines 901--902
- [][] 
- []
-
+Package pdftex.def Info: images/hyperloop_cad.png used on input line 882.
+(pdftex.def)             Requested size: 241.38153pt x 145.93057pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./images/hyperloop_cad.png>] [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1053.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1053.
+ [9 <./images/histo.pdf>] [10 <./images/hyperloop_cad.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1034.
+ [11] [12
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1034.
  (./heading.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1053.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1053.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1034.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1034.
 
 Package rerunfilecheck Info: File `heading.out' has not changed.
 (rerunfilecheck)             Checksum: 3D06FF42F149B086C657BD0620D3204B;521.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1053.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1034.
  ) 
 Here is how much of TeX's memory you used:
- 7764 strings out of 493315
- 112350 string characters out of 6137904
- 216166 words of memory out of 5000000
- 10944 multiletter control sequences out of 15000+600000
- 50520 words of font info for 102 fonts, out of 8000000 for 9000
+ 7727 strings out of 493315
+ 111750 string characters out of 6137904
+ 220090 words of memory out of 5000000
+ 10923 multiletter control sequences out of 15000+600000
+ 48366 words of font info for 95 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,11n,37p,394b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,37p,370b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
-/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/sym
-bol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on heading.pdf (13 pages, 3449657 bytes).
+e/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on heading.pdf (12 pages, 1442050 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 83 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
