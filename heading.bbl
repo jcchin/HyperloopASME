@@ -1,3 +1,58 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Musk}
+Musk, E., 2013.
+\newblock Hyperloop alpha.
+\newblock Website, August.
+
+\bibitem{ET3}
+Oster, D., Kumada, M., and Zhang, Y., 2011.
+\newblock ``Evacuated tube transport technologies (et3)tm: a maximum value
+  global transportation network for passengers and cargo''.
+\newblock {\em Journal of Modern Transportation, {\bf 19}}(1), pp.~42--50.
+
+\bibitem{GrayBenchmarking2013}
+Gray, J., Moore, K.~T., Hearn, T.~A., and Naylor, B.~A., 2013.
+\newblock ``Standard platform for benchmarking multidisciplinary design
+  analysis and optimization architectures''.
+\newblock {\em AIAA Journal, {\bf 51}}(10), Oct, pp.~2380--2394.
+
+\bibitem{Lytle}
+Claus, R.~W., Evans, A.~L., Lytle, J.~K., and Nichols, L.~D., 1991.
+\newblock ``Numerical propulsion system simulation''.
+\newblock {\em Computing Systems in Engineering, {\bf 2}}(4).
+
+\bibitem{goodwin2009cantera}
+Goodwin, D., Malaya, N., Moffat, H., and Speth, R., 2009.
+\newblock ``Cantera: An object-oriented software toolkit for chemical kinetics,
+  thermodynamics, and transport processes''.
+\newblock {\em Caltech, Pasadena}.
+
+\bibitem{Rouleau}
+{Rouleau}, G., and {Brauer}, M., 2013.
+\newblock Hyperloop: Not so fast!
+\newblock Website, November.
+
+\bibitem{Cengal}
+{Cengal}, Y., {Turner}, R., and {Cimbala}, J., 2008.
+\newblock {\em Fundamentals of thermal-fluid sciences}.
+\newblock McGraw-Hill Companies.
+
+\bibitem{Turns}
+{Turns}, S., 2006.
+\newblock {\em Thermal-fluid sciences: An integrated approach}.
+\newblock Cambridge University Press.
+
+\bibitem{Clausing}
+{Clausing}, A., 1982.
+\newblock ``Simple functional representations for the thermophysical properties
+  of gases at standard pressure''.
+\newblock {\em ASHRAE Transactions, {\bf 88}}, pp.~645--654.
+
+\bibitem{Churchill}
+{Churchill}, S., and {Chu}, H., 1975.
+\newblock ``Correlating equations for laminar and turbulent free convection
+  from a horizontal cylinder''.
+\newblock {\em Int. J. Heat Mass Transfer}.
 
 \end{thebibliography}
