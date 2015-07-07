@@ -10,7 +10,7 @@
 \usepackage{amsmath} %math equations
 \usepackage{subfiles} %break up document into subfiles
 \usepackage{hyperref} %hyperlinks
-
+\usepackage{cleveref} %section references
 
 \usepackage{tabulary} %wider table
 \usepackage{gensymb} %degree symbol
@@ -99,33 +99,37 @@ to quantify feasibility.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{nomenclature}
-\entry{$\beta$}{Volume coefficient of expansion}
-\entry{$\dot{m}$}{Mass flow rate}
-\entry{$\epsilon$}{Emissivity Factor}
-\entry{$\gamma$}{Heat Capacity Ratio}
-\entry{$\rho$}{Total, Hemispherical Reflectivity}
-\entry{$\sigma$}{Stefan-Boltzmann constant}
-\entry{$\upsilon$}{Kinematic Viscosity}
+\entry{A}{Area}
 \entry{BF}{Blockage Factor, diffused area over pod area}
-\entry{c1MN}{Mach number,front face of the first compressor}
 \entry{${C_{p}}$}{Heat capacity at constant pressure}
 \entry{${c_{solar}}$}{Gross Irradiance Adjustment}
-\entry{G}{Solar Irradiance}
+\entry{D}{Diameter}
 \entry{g}{Acceleration due to gravity}
+\entry{G}{Solar Irradiance}
 \entry{Gr}{Grashof Number}
 \entry{h}{Heat transfer coefficient}
 \entry{k}{Thermal Conductivity}
 \entry{L}{Length}
 \entry{MN}{Mach Number}
-\entry{NTU}{Number of Transfer Units}
+\entry{$\dot{m}$}{Mass flow rate}
+\entry{n}{Number of Pods}
 \entry{NU}{Nusselt Number}
 \entry{P}{Pressure}
-\entry{L}{Length}
 \entry{Pr}{Prandtl Number}
 \entry{Q}{Heat flow rate}
+\entry{r}{Radius}
 \entry{Ra}{Rayleigh Number}
 \entry{T}{Temperature}
-\entry{${\eta}_{ad}$}{Adiabatic Efficiency}
+\entry{$\alpha$}{Thermal Diffusivity}
+\entry{$\beta$}{Volume coefficient of expansion}
+\entry{$\gamma$}{Heat Capacity Ratio}
+\entry{$\epsilon$}{Total, Hemispherical Emissivty}
+\entry{${\eta}_{c}$}{Adiabatic Compressor Efficiency}
+\entry{${\pi}_{c}$}{Compressor Pressure Ratio}
+\entry{${\rho}_{r}$}{Total, Hemispherical Reflectivity}
+\entry{$\sigma$}{Stefan-Boltzmann constant}
+\entry{$\upsilon$}{Kinematic Viscosity}
+
 \end{nomenclature}
 
 
@@ -816,12 +820,9 @@ The modeling platform is intended to serve as an easily accessible baseline that
 expand and delve deeper into this unique multidisciplinary endeavor.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{acknowledgment}
-ASME Technical Publications provided the format specifications for the Journal of Mechanical Design, though they are not easy to reproduce.  It is their commitment to ensuring quality figures in every issue of JMD that motivates this effort to have authors review the presentation of their figures.  
+%\begin{acknowledgment}
 
-Thanks go to D. E. Knuth and L. Lamport for developing the wonderful word processing software packages \TeX\ and \LaTeX. We would like to thank Ken Sprott, Kirk van Katwyk, and Matt Campbell for fixing bugs in the ASME style file \verb+asme2ej.cls+, and Geoff Shiflett for creating 
-ASME bibliography stype file \verb+asmems4.bst+.
-\end{acknowledgment}
+%\end{acknowledgment}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The bibliography is stored in an external database file
